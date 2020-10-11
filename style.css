@@ -1,0 +1,126 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+/* banner */
+.banner-container {
+  width: 100%;
+  height: 100vh;
+  background: url("./assets/background-3.jpg") no-repeat center;
+  background-size: cover;
+}
+
+nav {
+  background-color: #000000;
+}
+
+footer {
+  background-color: #1F212E;
+}
+
+.content {
+  padding-top: 50vh;
+}
+
+.profesi {
+    font-weight: normal;
+    opacity: 0.9;
+}
+
+.socmed {
+  margin-top: 10px;
+}
+
+.socmed > a {
+  text-decoration: none;
+}
+
+.fa-facebook, .fa-instagram, .fa-github, .fa-linkedin, .fa-phone, .fa-envelope {
+  color: white;
+  margin-right: 5px;
+}
+
+/* main-content */
+.main-content{
+  background: #200122;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #6f0000, #200122);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #6f0000, #200122); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* about */
+.about {
+    height: 55vh;
+    width: 100%;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(17,14,14,1) 100%, rgba(242,0,0,1) 100%);
+}
+
+.title{
+    text-decoration: underline;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.foto-profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .foto-profile > img {
+    width: 15vw;
+    height: 15vw;
+    border-radius: 50%;
+    background-color: white;
+  }
+
+  /* resume */
+  .carousel {
+    height: 50vh;
+    background-color: aqua;
+  }
+
+  .resume {
+    width: 100%;
+    height: 70vh;  
+    display: flex;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(17,14,14,0.9364788151588761) 100%, rgba(242,0,0,1) 100%);
+  }
+  
+  .skills {
+    height: 55vh;
+    width: 100%;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(17,14,14,1) 100%, rgba(242,0,0,1) 100%);
+}
+
+/* portofolio */
+.portofolio {
+  height: auto;
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(17,14,14,0.9364788151588761) 100%, rgba(242,0,0,1) 100%);
+}
+
+.card-img-top {
+  max-height: 30vh;
+  width: 100%;
+}
+
+.details {
+  justify-content: flex-end;
+}
+
+/* contact */
+.contact {
+  height: 70vh;
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(17,14,14,1) 100%, rgba(242,0,0,1) 100%);
+}
+.form-contact {
+  width: 50vw;
+}
